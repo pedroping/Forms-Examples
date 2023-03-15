@@ -1,0 +1,12 @@
+<app-customer-form></app-customer-form>
+<br>
+<app-provider-form></app-provider-form>
+
+<div>
+  <h1>Teste</h1>
+  <form [formGroup]="form">
+    <input *ngFor="let key of keys" [formControlName]="key"
+      placeholder="{{ key | titlecase }}"
+    />
+  </form>
+</div>

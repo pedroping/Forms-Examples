@@ -1,0 +1,30 @@
+/* Add application styles & imports to this file! */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #272c3f;
+}
+
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  padding: 10px 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 12px;
+}
+
+input:disabled {
+  background-color: rgba(235, 234, 234, 0.815);
+}
+
+input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
